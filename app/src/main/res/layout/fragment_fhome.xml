@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000"
+    tools:context="com.example.administrator.fuxi22.FHomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:id = "@+id/ad_vp" />-->
+    <com.example.administrator.fuxi22.view.MyViewPager
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ad_vp"
+        />
+<!--圆点指示器-->
+    <LinearLayout
+        android:id="@+id/layout_point_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@id/ad_vp"
+        />
+
+</RelativeLayout>

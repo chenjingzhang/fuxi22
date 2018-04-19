@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.scrollviewandlistview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--头部填充广告和底部分类提示-->
+        <include layout="@layout/layout_home_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            ></include>
+        <!--中间填充listView-->
+        <include layout="@layout/layout_home_middle"
+
+            ></include>
+        <!--底部填充gridView-->
+        <include layout="@layout/layout_home_bottom"></include>
+    </LinearLayout>
+</ScrollView>
