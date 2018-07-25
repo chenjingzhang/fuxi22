@@ -14,8 +14,6 @@ import android.view.ViewGroup;
  */
 public class FContentFragment extends Fragment {
     int pos = 0;
-
-
     public FContentFragment() {
         // Required empty public constructor
     }

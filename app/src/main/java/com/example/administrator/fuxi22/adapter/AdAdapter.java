@@ -18,7 +18,7 @@ public class AdAdapter extends PagerAdapter {
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-      container.addView(viewList.get(position));
+       container.addView(viewList.get(position));
         return viewList.get(position);
     }
 

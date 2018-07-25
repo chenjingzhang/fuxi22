@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_300"
+    tools:context=".location.FTuiJianFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <toxm.com.dxt.lxiang1.location.tuijian.MyViewPager
+                android:id="@+id/ad_vp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@android:color/holo_purple">
+
+            </toxm.com.dxt.lxiang1.location.tuijian.MyViewPager>
+
+            <!--圆点指示器-->
+            <LinearLayout
+                android:id="@+id/layout_point_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/ad_vp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" />
+        </RelativeLayout>
+
+        <toxm.com.dxt.lxiang1.location.tuijian.MyCustomListView
+
+            android:id="@+id/home_middle_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light" />
+
+    </LinearLayout>
+</ScrollView>

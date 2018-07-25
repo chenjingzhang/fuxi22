@@ -1,6 +1,7 @@
 package com.example.administrator.fuxi22;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -43,20 +44,18 @@ public class FHomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_fhome, container, false);
         ad_vp = (MyViewPager) view.findViewById(R.id.ad_vp);
-
         layout_point_container = (LinearLayout) view.findViewById(R.id.layout_point_container);
+
         int count = Images.imageUrls.length;
         List<View> views = new ArrayList<>();
         for (int i = 0; i < count; i++) {
             //添加图片
             ImageView img = new ImageView(context);
             img.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            Picasso.with(context).load(Images.imageUrls[i]).into(img);
+            Picasso.with(context).load(Images.imageUrls[i]).config(Bitmap.Config.ARGB_8888).error(R.mipmap.ic_launcher).into(img);
             views.add(img);
             //添加圆点指示器
-
             ImageView img_point = new ImageView(context);
-
             if (i == 0) {
                 img_point.setImageResource(R.drawable.point_select);
             } else {
@@ -98,7 +97,6 @@ public class FHomeFragment extends Fragment {
 
             }
         });
-
         return view;
     }
 }

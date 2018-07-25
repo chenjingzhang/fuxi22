@@ -22,7 +22,6 @@ public class MyListViewByEvent extends ListView {
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
         switch (ev.getAction()){
-
             case MotionEvent.ACTION_DOWN:
                 getParent().requestDisallowInterceptTouchEvent(true);
                 break;

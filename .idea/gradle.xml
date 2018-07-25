@@ -8,8 +8,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/androidautoscrollviewpager" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/jcvideoplayer-lib" />
             <option value="$PROJECT_DIR$/scrollviewandlistview" />
+            <option value="$PROJECT_DIR$/zxiang1" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

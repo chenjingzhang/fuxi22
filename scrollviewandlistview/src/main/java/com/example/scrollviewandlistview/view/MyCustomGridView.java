@@ -6,6 +6,7 @@ import android.widget.GridView;
 
 /**
  * Created by Administrator on 2018/3/18 0018.
+ * 解决ScrollView嵌套GridView,GridView高度显示不全的问题
  */
 public class MyCustomGridView extends GridView {
     public MyCustomGridView(Context context, AttributeSet attrs) {

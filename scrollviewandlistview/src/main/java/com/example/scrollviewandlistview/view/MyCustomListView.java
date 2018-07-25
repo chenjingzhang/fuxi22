@@ -6,6 +6,8 @@ import android.widget.ListView;
 
 /**
  * Created by Administrator on 2018/3/18 0018.
+ *
+ *  解决ScrollView嵌套listView高度显示不全的问题
  */
 public class MyCustomListView extends ListView{
     public MyCustomListView(Context context, AttributeSet attrs) {

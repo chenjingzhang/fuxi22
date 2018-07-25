@@ -14,6 +14,8 @@ import java.util.List;
 
 /**
  * Created by Administrator on 2018/3/18 0018.
+ *
+ *
  */
 public class MyListViewAdapter extends BaseAdapter {
     List<String> stringList;
@@ -64,6 +66,5 @@ public class MyListViewAdapter extends BaseAdapter {
             this.itemView = itemView;
             textView = (TextView) itemView.findViewById(R.id.textView);
         }
-
     }
 }

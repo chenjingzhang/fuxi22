@@ -1,1 +1,1 @@
-include ':app', ':scrollviewandlistview'
+include ':app', ':scrollviewandlistview', ':zxiang1',':androidautoscrollviewpager','jcvideoplayer-lib'

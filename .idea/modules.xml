@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidautoscrollviewpager/androidautoscrollviewpager.iml" filepath="$PROJECT_DIR$/androidautoscrollviewpager/androidautoscrollviewpager.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fuxi22.iml" filepath="$PROJECT_DIR$/fuxi22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" filepath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrollviewandlistview/scrollviewandlistview.iml" filepath="$PROJECT_DIR$/scrollviewandlistview/scrollviewandlistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxiang1/zxiang1.iml" filepath="$PROJECT_DIR$/zxiang1/zxiang1.iml" />
     </modules>
   </component>
 </project>

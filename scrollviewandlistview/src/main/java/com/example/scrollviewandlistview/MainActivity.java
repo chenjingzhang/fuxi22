@@ -28,11 +28,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView();
-
         initMiddleListView();
-
         initBottomGridView();
 
     }
@@ -41,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         listView = (MyCustomListView) findViewById(R.id.home_middle_listView);
         gridView = (MyCustomGridView) findViewById(R.id.home_bottom_gridView);
 // 方法1 让页面从头开始
-//   scrollView = (ScrollView) findViewById(R.id.ss);
+//        scrollView = (ScrollView) findViewById(R.id.ss);
 //        scrollView.smoothScrollTo(0,0);
 
         layout = (LinearLayout) findViewById(R.id.layout_header);
