@@ -1,6 +1,7 @@
 package toxm.com.dxt.lxiang1.fragment;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.TabLayout;
@@ -10,10 +11,13 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+
 import com.google.gson.Gson;
 import java.util.ArrayList;
 import java.util.List;
 import toxm.com.dxt.lxiang1.R;
+import toxm.com.dxt.lxiang1.activity.NewsChannelActivity;
 import toxm.com.dxt.lxiang1.home.FHomeViewPager;
 import toxm.com.dxt.lxiang1.home.MainReadContentData;
 import toxm.com.dxt.lxiang1.home.ReadChildFragment;
@@ -40,6 +44,13 @@ public class HomeFragment extends Fragment implements DataCallback {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         viewPager = view.findViewById(R.id.home_content_viewPager);
         tabLayout = view.findViewById(R.id.tab_layout_home);
+        ImageView add_channel_iv = view.findViewById(R.id.add_channel_iv);
+        add_channel_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new Intent(getActivity(), NewsChannelActivity.class);
+            }
+        });
         initTabAsTitle();
         HttpUtils httpUtils = HttpUtils.getHttpUtils();
         httpUtils.getStrByNetWork(1, Constants.READING.READING_CONTENT_PATH,handler);

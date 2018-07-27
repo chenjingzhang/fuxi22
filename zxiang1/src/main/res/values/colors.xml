@@ -10,4 +10,10 @@
     <color name="black">#000000</color>
     <color name="black_1">#333333</color>
     <color name="amber">#BBFFC107</color>
+
+    <!-- 主体文字,标题/标签 -->
+    <color name="txt_black">#212121</color>
+
+    <color name="md_grey_500">#9e9e9e</color>
+    <color name="md_grey_700">#616161</color>
 </resources>

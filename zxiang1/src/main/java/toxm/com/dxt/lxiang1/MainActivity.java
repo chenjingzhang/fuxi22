@@ -1,5 +1,4 @@
 package toxm.com.dxt.lxiang1;
-
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
@@ -7,12 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-
 import toxm.com.dxt.lxiang1.fragment.HomeFragment;
 import toxm.com.dxt.lxiang1.fragment.LikeFragment;
 import toxm.com.dxt.lxiang1.fragment.LocationFragment;
 import toxm.com.dxt.lxiang1.fragment.MeFragment;
-
 public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
     HomeFragment homeFragment;
     LikeFragment likeFragment;
@@ -21,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     RadioGroup radioGroup;
     RadioButton mRadioHome,mRadioLocation,mRadioLike,mRadioMe;
     FragmentManager fragmentManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
