@@ -1,4 +1,4 @@
-package toxm.com.dxt.zxingmu2.ui;
+package toxm.com.dxt.zxingmu2.ui.news.fragment;
 
 
 import android.os.Bundle;
@@ -45,7 +45,6 @@ public class NewsFragment extends Fragment implements ViewPager.OnPageChangeList
         mTabs = (TabLayout) view.findViewById(R.id.tab_layout);
         mTitles = getResources().getStringArray(R.array.main_titles);
 
-
         mFragments = new NewsClassFragment[mTitles.length];
         for (int i = 0; i < mFragments.length; i++) {
             mFragments[i] = NewsClassFragment.newInstance(i);
@@ -63,8 +62,6 @@ public class NewsFragment extends Fragment implements ViewPager.OnPageChangeList
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
     }
-
-
 
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {

@@ -11,9 +11,11 @@
             <option value="$PROJECT_DIR$/androidautoscrollviewpager" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/jcvideoplayer-lib" />
+            <option value="$PROJECT_DIR$/pullToRefresh_Library" />
             <option value="$PROJECT_DIR$/scrollviewandlistview" />
             <option value="$PROJECT_DIR$/zmovie" />
             <option value="$PROJECT_DIR$/zxiang1" />
+            <option value="$PROJECT_DIR$/zxingmu2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

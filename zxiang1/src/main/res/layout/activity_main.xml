@@ -65,7 +65,7 @@
             android:checked="false"
             android:gravity="center"
             android:textSize = "12sp"
-            android:text ="location"
+            android:text ="me"
             android:drawableTop="@drawable/radiobutton_bg_me"
             />
 

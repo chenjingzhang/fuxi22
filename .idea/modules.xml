@@ -6,9 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fuxi22.iml" filepath="$PROJECT_DIR$/fuxi22.iml" />
       <module fileurl="file://$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" filepath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefresh_Library/pullToRefresh_Library.iml" filepath="$PROJECT_DIR$/pullToRefresh_Library/pullToRefresh_Library.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrollviewandlistview/scrollviewandlistview.iml" filepath="$PROJECT_DIR$/scrollviewandlistview/scrollviewandlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/zmovie/zmovie.iml" filepath="$PROJECT_DIR$/zmovie/zmovie.iml" />
       <module fileurl="file://$PROJECT_DIR$/zxiang1/zxiang1.iml" filepath="$PROJECT_DIR$/zxiang1/zxiang1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxingmu2/zxingmu2.iml" filepath="$PROJECT_DIR$/zxingmu2/zxingmu2.iml" />
     </modules>
   </component>
 </project>

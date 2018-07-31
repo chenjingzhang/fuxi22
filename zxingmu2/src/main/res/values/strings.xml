@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">zxingmu2</string>
+
+    <string-array name="main_titles">
+        <item>社会</item>
+        <item>国内</item>
+        <item>国际</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>科技</item>
+        <item>健康</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
